@@ -1,7 +1,6 @@
 // ottengo i nodi
 const mailContainerEl = document.getElementById("mail-container");
 const buttonGeneraEl = document.getElementById("button-genera");
-console.log(buttonGeneraEl);
 
 const mailGenerator = () => {
   fetch("https://flynn.boolean.careers/exercises/api/random/mail")

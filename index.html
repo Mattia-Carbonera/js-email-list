@@ -20,13 +20,28 @@
       referrerpolicy="no-referrer"
     />
     <!-- CSS -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <button type="button" class="btn btn-primary" id="button-genera">
-      Genera eMail
-    </button>
-    <ol id="mail-container"></ol>
+    <div class="title">
+      <h1>Email generator</h1>
+      <h2>js-email-list</h2>
+      <div class="background-bottom-title"></div>
+    </div>
+    <div class="container">
+      <div class="content-container">
+        <div class="button-container">
+          <h3>Clicca il bottone per generare altre eMail!</h3>
+          <button type="button" class="btn btn-primary" id="button-genera">
+            Genera eMail
+          </button>
+        </div>
+
+        <div class="mail-container">
+          <ol id="mail-container"></ol>
+        </div>
+      </div>
+    </div>
     <!-- bootstrap js -->
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
